@@ -1,0 +1,188 @@
+/*
+Theme Name: KN-foto.cz Voyage
+Description: KN-foto.cz Voyage Child Theme
+
+Theme URI: http://www.voyagebc.com/voyagetheme
+
+Author: Michal Stanke
+Author URI: http://www.mikk.cz/
+Version: 1.5.0.3
+
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Template: voyage
+Template Version: 1.5.0
+*/
+/*@import url("../voyage/style.css");*/
+@import url("../voyage/scheme/nature.css");
+
+/*** PISMO A POZADI ***/
+body,
+#masthead {
+	color: #333;
+	background-image: none;
+	background-color: #040410 !important;
+}
+
+p,
+ul {
+	font-size: 90%;
+}
+
+/*** NADPISY ***/
+h1 {
+	font-size: 150% !important;
+}
+
+h2 {
+	font-size: 120% !important;
+}
+
+h3 {
+	font-size: 110% !important;
+}
+
+/*** ZAHLAVI ***/
+#branding {
+	padding-bottom: 10px;
+}
+
+#logo,
+#subsection-menu a,
+#top-navigation a,
+div.headline {
+	border-radius: 8px;
+	background: rgba(180, 176, 157, 0.8);
+}
+
+#logo img {
+	max-height: 100px;
+	margin: 4px 12px;
+}
+
+#subsection-menu {
+	background: none;
+}
+
+#subsection-menu li {
+	border: none;
+}
+
+/*** ZAPATI ***/
+#footer .cf-scheme-switch {
+	text-align: right;
+}
+
+/*** UVODNI STRANKA ***/
+#main .featured-wrapper {
+	margin-top: 30px;
+}
+
+#landing-text {
+	font-size: 115%;
+}
+
+/*skryt slider na uzkych displejich*/
+@media screen and (max-width: 480px) { 
+    .easingslider {
+	    display: none;
+    }
+}
+
+/*skryt rubriku u prispevku*/
+/*article .entry-category {
+	display: none;
+}*/
+
+/*zobrazeni galerie v prispevku*/
+/*.gallery-row {
+	display: inline-block;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+}*/
+
+/*nahledy obrazku v prispevku*/
+/*.attachment-thumbnail {
+	margin: 5px;
+	width: 90%;
+	border: 5px solid rgb(225, 225, 225);
+}*/
+
+/*** KOMENTARE ***/
+#commentform .logged-in-as,
+#commentform .comment-notes {
+	color: inherit;
+}
+
+#commentform .form-allowed-tags {
+	display: none;
+}
+
+/*** NextGEN (default style required) ***/
+/*vycentrovani galerie alb*/
+.ngg-albumoverview .ngg-album {
+	position: relative;
+	left: 3%;
+}
+/*zobrazeni galerie alb*/
+.ngg-albumoverview .ngg-album {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	border: none !important;
+	border-top: 1px solid #a9a9a9 !important;
+	text-align: center;
+}
+.ngg-albumoverview .ngg-album .ngg-thumbnail {
+	margin-top: -35px;
+}
+.ngg-albumoverview .ngg-album .ngg-albumtitle {
+	margin-left: 125px;
+	font-size: 100%;
+}
+.ngg-albumoverview .ngg-album .ngg-description {
+	font-size: 75%;
+}
+
+/*vycentrovani nahledu galerie*/
+.ngg-galleryoverview {
+	text-align: center;
+}
+.ngg-gallery-thumbnail-box {
+	display: inline-block;
+	float: none;
+}
+
+/*strankovani*/
+.ngg-navigation a {
+	border: none !important;
+}
+
+/*pruhlednost a pozadi nahledu*/ /*+pro NGG Sidebar Widget/NextGEN Gallery Sidebar Widget*/
+.ngg-thumbnail img,
+.ngg-gallery-thumbnail img, 
+.ngg-widget img,
+.ngg-sidebar-widget img {
+	background: #a9a9a9;
+	opacity:0.7; filter:alpha(finishopacity=70,opacity=70,style=0);
+}
+.ngg-thumbnail img:hover,
+.ngg-gallery-thumbnail img:hover,
+.ngg-widget img:hover,
+.ngg-sidebar-widget img:hover {
+	opacity:1; filter:alpha(finishopacity=1,opacity=1,style=0);
+}
+
+/*** NGG Sidebar Widget/NextGEN Gallery Sidebar Widget ***/
+
+/*.ngg-sidebar-widget img {
+	margin: 2px;
+	padding: 2px;
+}
+
+.ngg-sidebar-widget li {
+	display: inline-block;
+}*/
+
